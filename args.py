@@ -14,7 +14,7 @@ def parse_arguments():
         "--finetune",
         type=lambda x: (str(x).lower() in ['true', '1', 'yes']),
         default=False,
-        help="是否加入分数正则化微调"
+        help="是否加入分数正则化微调q"
     )
 
     parser.add_argument(
